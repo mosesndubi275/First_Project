@@ -8,7 +8,7 @@ import pandas as pd
 
 # Input
 LOSS_LIMIT = 0.02
-ACCOUNT_VALUE = 476.00
+ACCOUNT_VALUE = pyip.inputInt('Account Value: ')
 c = CurrencyRates()
 currency_pair = input('Pair: ').upper()
 lot_size = pyip.inputInt('Lot Size: ')
